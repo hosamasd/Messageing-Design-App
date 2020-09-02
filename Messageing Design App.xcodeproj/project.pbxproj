@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F08FE7125001AC500D3B00C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F08FE7025001AC500D3B00C /* ChatViewController.swift */; };
+		9F08FE7325001AFB00D3B00C /* ChatNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F08FE7225001AFB00D3B00C /* ChatNavigationView.swift */; };
+		9F08FE7625001B8200D3B00C /* IncomingTextMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F08FE7525001B8200D3B00C /* IncomingTextMessageTableViewCell.swift */; };
+		9F08FE7825001D1A00D3B00C /* OutgoingTextMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F08FE7725001D1A00D3B00C /* OutgoingTextMessageTableViewCell.swift */; };
+		9F08FE7B250027F300D3B00C /* send.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F08FE7A250027F300D3B00C /* send.wav */; };
 		9F2528AF25000BE5004AE395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528AE25000BE5004AE395 /* AppDelegate.swift */; };
 		9F2528B125000BE5004AE395 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528B025000BE5004AE395 /* SceneDelegate.swift */; };
-		9F2528B325000BE5004AE395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528B225000BE5004AE395 /* ViewController.swift */; };
+		9F2528B325000BE5004AE395 /* MessageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528B225000BE5004AE395 /* MessageListVC.swift */; };
 		9F2528B625000BE5004AE395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2528B425000BE5004AE395 /* Main.storyboard */; };
 		9F2528B825000BE8004AE395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2528B725000BE8004AE395 /* Assets.xcassets */; };
 		9F2528BB25000BE8004AE395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2528B925000BE8004AE395 /* LaunchScreen.storyboard */; };
+		9F2528CC25000C39004AE395 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528C525000C38004AE395 /* UILabel.swift */; };
+		9F2528CD25000C39004AE395 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528C625000C38004AE395 /* UITextView.swift */; };
+		9F2528CE25000C39004AE395 /* ExtensionUivew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528C725000C38004AE395 /* ExtensionUivew.swift */; };
+		9F2528CF25000C39004AE395 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528C825000C38004AE395 /* UIImageView.swift */; };
+		9F2528D025000C39004AE395 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528C925000C38004AE395 /* UIButton.swift */; };
+		9F2528D125000C39004AE395 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528CA25000C38004AE395 /* UIImage.swift */; };
+		9F2528D225000C39004AE395 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528CB25000C39004AE395 /* UITextField.swift */; };
+		9F2528D425000DDD004AE395 /* MessageListNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528D325000DDD004AE395 /* MessageListNavigationView.swift */; };
+		9F2528D725000E59004AE395 /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528D625000E59004AE395 /* MessageList.swift */; };
+		9F2528DA2500113D004AE395 /* MessageListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528D92500113D004AE395 /* MessageListCollectionViewCell.swift */; };
+		9F2528DC25001163004AE395 /* CustomImagEInsideViewOnlineChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2528DB25001163004AE395 /* CustomImagEInsideViewOnlineChat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F08FE7025001AC500D3B00C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9F08FE7225001AFB00D3B00C /* ChatNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatNavigationView.swift; sourceTree = "<group>"; };
+		9F08FE7525001B8200D3B00C /* IncomingTextMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingTextMessageTableViewCell.swift; sourceTree = "<group>"; };
+		9F08FE7725001D1A00D3B00C /* OutgoingTextMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutgoingTextMessageTableViewCell.swift; sourceTree = "<group>"; };
+		9F08FE7A250027F300D3B00C /* send.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = send.wav; sourceTree = "<group>"; };
 		9F2528AB25000BE5004AE395 /* Messageing Design App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messageing Design App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2528AE25000BE5004AE395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F2528B025000BE5004AE395 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F2528B225000BE5004AE395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F2528B225000BE5004AE395 /* MessageListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListVC.swift; sourceTree = "<group>"; };
 		9F2528B525000BE5004AE395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F2528B725000BE8004AE395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F2528BA25000BE8004AE395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F2528BC25000BE8004AE395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2528C525000C38004AE395 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		9F2528C625000C38004AE395 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		9F2528C725000C38004AE395 /* ExtensionUivew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUivew.swift; sourceTree = "<group>"; };
+		9F2528C825000C38004AE395 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		9F2528C925000C38004AE395 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		9F2528CA25000C38004AE395 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		9F2528CB25000C39004AE395 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		9F2528D325000DDD004AE395 /* MessageListNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListNavigationView.swift; sourceTree = "<group>"; };
+		9F2528D625000E59004AE395 /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
+		9F2528D92500113D004AE395 /* MessageListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F2528DB25001163004AE395 /* CustomImagEInsideViewOnlineChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagEInsideViewOnlineChat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F08FE7425001B7A00D3B00C /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				9F08FE7525001B8200D3B00C /* IncomingTextMessageTableViewCell.swift */,
+				9F08FE7725001D1A00D3B00C /* OutgoingTextMessageTableViewCell.swift */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		9F08FE79250027DF00D3B00C /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				9F08FE7A250027F300D3B00C /* send.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		9F2528A225000BE5004AE395 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +107,68 @@
 			children = (
 				9F2528AE25000BE5004AE395 /* AppDelegate.swift */,
 				9F2528B025000BE5004AE395 /* SceneDelegate.swift */,
-				9F2528B225000BE5004AE395 /* ViewController.swift */,
+				9F2528D525000E4F004AE395 /* model */,
+				9F2528C325000C0A004AE395 /* helper */,
+				9F2528C425000C11004AE395 /* view */,
+				9F2528C225000C00004AE395 /* controller */,
 				9F2528B425000BE5004AE395 /* Main.storyboard */,
 				9F2528B725000BE8004AE395 /* Assets.xcassets */,
 				9F2528B925000BE8004AE395 /* LaunchScreen.storyboard */,
 				9F2528BC25000BE8004AE395 /* Info.plist */,
 			);
 			path = "Messageing Design App";
+			sourceTree = "<group>";
+		};
+		9F2528C225000C00004AE395 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F2528B225000BE5004AE395 /* MessageListVC.swift */,
+				9F08FE7025001AC500D3B00C /* ChatViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9F2528C325000C0A004AE395 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				9F08FE79250027DF00D3B00C /* sound */,
+				9F2528C725000C38004AE395 /* ExtensionUivew.swift */,
+				9F2528C925000C38004AE395 /* UIButton.swift */,
+				9F2528CA25000C38004AE395 /* UIImage.swift */,
+				9F2528C825000C38004AE395 /* UIImageView.swift */,
+				9F2528C525000C38004AE395 /* UILabel.swift */,
+				9F2528CB25000C39004AE395 /* UITextField.swift */,
+				9F2528C625000C38004AE395 /* UITextView.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		9F2528C425000C11004AE395 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9F2528D82500112F004AE395 /* cell */,
+				9F2528D325000DDD004AE395 /* MessageListNavigationView.swift */,
+				9F2528DB25001163004AE395 /* CustomImagEInsideViewOnlineChat.swift */,
+				9F08FE7225001AFB00D3B00C /* ChatNavigationView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9F2528D525000E4F004AE395 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9F2528D625000E59004AE395 /* MessageList.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9F2528D82500112F004AE395 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9F08FE7425001B7A00D3B00C /* chat */,
+				9F2528D92500113D004AE395 /* MessageListCollectionViewCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +231,7 @@
 			files = (
 				9F2528BB25000BE8004AE395 /* LaunchScreen.storyboard in Resources */,
 				9F2528B825000BE8004AE395 /* Assets.xcassets in Resources */,
+				9F08FE7B250027F300D3B00C /* send.wav in Resources */,
 				9F2528B625000BE5004AE395 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +243,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2528B325000BE5004AE395 /* ViewController.swift in Sources */,
+				9F2528B325000BE5004AE395 /* MessageListVC.swift in Sources */,
+				9F2528D225000C39004AE395 /* UITextField.swift in Sources */,
 				9F2528AF25000BE5004AE395 /* AppDelegate.swift in Sources */,
+				9F2528DC25001163004AE395 /* CustomImagEInsideViewOnlineChat.swift in Sources */,
+				9F2528CF25000C39004AE395 /* UIImageView.swift in Sources */,
+				9F2528D025000C39004AE395 /* UIButton.swift in Sources */,
+				9F2528D725000E59004AE395 /* MessageList.swift in Sources */,
+				9F2528CE25000C39004AE395 /* ExtensionUivew.swift in Sources */,
+				9F2528CD25000C39004AE395 /* UITextView.swift in Sources */,
+				9F2528DA2500113D004AE395 /* MessageListCollectionViewCell.swift in Sources */,
+				9F08FE7625001B8200D3B00C /* IncomingTextMessageTableViewCell.swift in Sources */,
+				9F2528D125000C39004AE395 /* UIImage.swift in Sources */,
+				9F08FE7825001D1A00D3B00C /* OutgoingTextMessageTableViewCell.swift in Sources */,
+				9F2528CC25000C39004AE395 /* UILabel.swift in Sources */,
+				9F2528D425000DDD004AE395 /* MessageListNavigationView.swift in Sources */,
+				9F08FE7125001AC500D3B00C /* ChatViewController.swift in Sources */,
+				9F08FE7325001AFB00D3B00C /* ChatNavigationView.swift in Sources */,
 				9F2528B125000BE5004AE395 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hosam.net.Messageing-Design-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hosam.net.Messageing-Design-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
